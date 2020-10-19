@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.logo {
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+}
+li a button {
+    text-decoration: none;
+    color: white;
+    border-radius: 5%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navlink {
+    justify-content: center;
+}
+.navlink :hover {
+    color: tomato;
+}
+.navlink :active {
+    color: yellow;
+}
+.cta {
+    color: white;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+
+}
+li {
+    display: inline;
+    margin: 30px;
+}
